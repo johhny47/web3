@@ -126,3 +126,27 @@
   display: flex;
   gap:24x;
 }
+/* resume section title  */
+.resume-title{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.exp-subtitle{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.exp-description .exp-subtitle{
+  color:#757575
+}
+.resume hr{
+  margin: 30px 5px;
+}
+.btn-position{
+  margin-top: 20px;
+  margin-right: 30px;
+}
