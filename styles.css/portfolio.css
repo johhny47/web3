@@ -40,6 +40,7 @@
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position:top left,bottom right; 
+    max-width: 1800px;
   }
   li> button{
     height: 64px;
@@ -108,6 +109,7 @@
     text-align: center;
     margin-top: 130px;
     margin-bottom: 130px;
+    max-width: 1800px;
 }
 .about-items{
     display:flex;
@@ -130,6 +132,7 @@
 .resume{
   margin-top: 130px;
   margin-bottom:20px;
+  max-width: 1800px;
 }
 .resume-title{
   font-size: 30px;
@@ -153,9 +156,11 @@
 
 /* style footer  */
 footer{
+  max-width:1800px;
   padding: 130px 230px;
   display: flex;
   gap: 100px;
+  margin-top: 40px;
 }
 footer input[type="text"] ,footer input[type="email"] ,footer input[type="textarea"]  button {
   height: 64px;
