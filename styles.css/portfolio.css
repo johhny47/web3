@@ -150,7 +150,20 @@
 .resume hr{
   margin: 30px 5px;
 }
-.btn-position{
-  margin-top: 0px;
-  margin-right: 0px;
+
+/* style footer  */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+footer input[type="text"] ,footer input[type="email"] ,footer input[type="textarea"]  button {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
